@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>6FORM — мягкие настенные изголовья на заказ</title>
+<meta name="description" content="Шесть форм изголовий, сотни сочетаний тканей и размеров. Собственное производство в Москве, доставка и монтаж по России.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ═══ SVG-силуэты форм (запасной вариант, пока нет фотографий) ═══ -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="form-01" viewBox="0 0 200 150"><path d="M0 150 V50 Q0 10 45 10 H155 Q200 10 200 50 V150 Z"/></symbol>
+    <symbol id="form-02" viewBox="0 0 200 150"><path d="M0 150 V85 C22 30 62 22 92 44 C118 63 140 28 168 30 C188 31 200 45 200 62 V150 Z"/></symbol>
+    <symbol id="form-03" viewBox="0 0 200 150"><path d="M0 150 V60 Q0 46 16 43 L46 37 Q62 34 68 24 Q82 4 100 4 Q118 4 132 24 Q138 34 154 37 L184 43 Q200 46 200 60 V150 Z"/></symbol>
+    <symbol id="form-04" viewBox="0 0 200 150">
+      <path d="M0 150 V24 Q0 8 18 8 H182 Q200 8 200 24 V150 Z"/>
+      <g style="fill:none;stroke:var(--sil-line,#F4F1EB);stroke-width:2"><path d="M33 12V150M66.5 9V150M100 8V150M133.5 9V150M167 12V150"/></g>
+    </symbol>
+    <symbol id="form-05" viewBox="0 0 200 150"><path d="M0 150 V80 C0 20 45 8 100 8 C155 8 200 20 200 80 V150 Z"/></symbol>
+    <symbol id="form-06" viewBox="0 0 200 150"><path d="M0 150 V62 A25 25 0 0 1 50 62 A25 25 0 0 1 100 62 A25 25 0 0 1 150 62 A25 25 0 0 1 200 62 V150 Z"/></symbol>
+  </defs>
+</svg>
+
+<!-- ═══ HEADER ═══ -->
+<header class="hdr" id="hdr">
+  <a href="#top" class="hdr__logo">6FORM</a>
+  <nav class="hdr__nav">
+    <a href="#forms">Формы</a>
+    <a href="#fabrics">Ткани</a>
+    <a href="#sets">Комплектация</a>
+    <a href="#sizes">Размеры</a>
+    <a href="#faq">Вопросы</a>
+  </nav>
+  <a href="#order" class="btn btn--dark hdr__cta">Заказать</a>
+  <button class="hdr__burger" id="burger" aria-label="Меню" aria-expanded="false"><span></span><span></span></button>
+</header>
+
+<div class="mmenu" id="mmenu">
+  <nav>
+    <a href="#forms">Формы</a>
+    <a href="#fabrics">Ткани</a>
+    <a href="#sets">Комплектация</a>
+    <a href="#sizes">Размеры</a>
+    <a href="#quality">Качество</a>
+    <a href="#faq">Вопросы</a>
+    <a href="#showroom">Шоурум</a>
+    <a href="#order" class="btn btn--dark mmenu__cta">Заказать</a>
+  </nav>
+</div>
+
+<!-- ═══ HERO ═══ -->
+<section class="hero" id="top">
+  <div class="hero__media">
+    <img src="img/hero.jpg" data-fb="https://ylsedesign.se/cdn/shop/files/ylse-upholstered-headboard-luxury-bedroom-design.png?v=1774444990" alt="Мягкое изголовье в интерьере спальни" data-parallax>
+  </div>
+  <div class="hero__inner">
+    <span class="hero__label">Мягкие изголовья на заказ · Москва</span>
+    <h1 class="hero__title">
+      <span class="line">Шесть форм.</span>
+      <span class="line">Сотни сочетаний.</span>
+      <span class="line">Ваша спальня.</span>
+    </h1>
+    <p class="hero__sub">Изголовье под ваш размер, в вашей ткани — с замером, доставкой и монтажом. Изготовим за 3–8 недель.</p>
+    <div class="hero__cta">
+      <a href="#order" class="btn btn--accent">Рассчитать стоимость <i>→</i></a>
+      <a href="#forms" class="btn btn--outline">Смотреть 6 форм</a>
+    </div>
+    <ul class="hero__facts">
+      <li><b>от 60 000 ₽</b><span>изголовье под ваш размер</span></li>
+      <li><b>300+</b><span>оттенков тканей</span></li>
+      <li><b>2 года</b><span>гарантии</span></li>
+    </ul>
+  </div>
+  <div class="hero__bar">
+    <span>Собственное производство · Москва</span>
+    <span class="hero__scroll">Листайте вниз ↓</span>
+    <span>Доставка и монтаж по России</span>
+  </div>
+</section>
+
+<!-- ═══ SIX FORMS ═══ -->
+<section class="sec forms" id="forms">
+  <div class="sec__head">
+    <span class="label">Коллекция</span>
+    <h2 class="h2">Six Forms</h2>
+    <p class="sec__note">Одна спальня. Шесть характеров.<br>Выберите свой — остальное подберём вместе.</p>
+  </div>
+
+  <div class="forms__grid">
+    <button class="fcard" data-form="01" data-name="ADELE">
+      <span class="fcard__ph">
+        <img src="img/forms/form-01.jpg" alt="Изголовье Form 01 Adele" data-photo>
+        <span class="fcard__sil"><svg><use href="#form-01"></use></svg></span>
+      </span>
+      <span class="fcard__meta"><span class="fcard__no">Form 01</span><span class="fcard__name">Adele</span></span>
+      <span class="fcard__desc">Мягкая арка с крупным радиусом</span>
+    </button>
+    <button class="fcard" data-form="02" data-name="DUNE">
+      <span class="fcard__ph">
+        <img src="img/forms/form-02.jpg" alt="Изголовье Form 02 Dune" data-photo>
+        <span class="fcard__sil"><svg><use href="#form-02"></use></svg></span>
+      </span>
+      <span class="fcard__meta"><span class="fcard__no">Form 02</span><span class="fcard__name">Dune</span></span>
+      <span class="fcard__desc">Асимметричная волна</span>
+    </button>
+    <button class="fcard" data-form="03" data-name="MAYFAIR">
+      <span class="fcard__ph">
+        <img src="img/forms/form-03.jpg" alt="Изголовье Form 03 Mayfair" data-photo>
+        <span class="fcard__sil"><svg><use href="#form-03"></use></svg></span>
+      </span>
+      <span class="fcard__meta"><span class="fcard__no">Form 03</span><span class="fcard__name">Mayfair</span></span>
+      <span class="fcard__desc">Классический силуэт с плечами</span>
+    </button>
+    <button class="fcard" data-form="04" data-name="LINEA">
+      <span class="fcard__ph">
+        <img src="img/forms/form-04.jpg" alt="Изголовье Form 04 Linea" data-photo>
+        <span class="fcard__sil"><svg><use href="#form-04"></use></svg></span>
+      </span>
+      <span class="fcard__meta"><span class="fcard__no">Form 04</span><span class="fcard__name">Linea</span></span>
+      <span class="fcard__desc">Вертикальные секции</span>
+    </button>
+    <button class="fcard" data-form="05" data-name="CAPSULE">
+      <span class="fcard__ph">
+        <img src="img/forms/form-05.jpg" alt="Изголовье Form 05 Capsule" data-photo>
+        <span class="fcard__sil"><svg><use href="#form-05"></use></svg></span>
+      </span>
+      <span class="fcard__meta"><span class="fcard__no">Form 05</span><span class="fcard__name">Capsule</span></span>
+      <span class="fcard__desc">Округлая капсула</span>
+    </button>
+    <button class="fcard" data-form="06" data-name="POEM">
+      <span class="fcard__ph">
+        <img src="img/forms/form-06.jpg" alt="Изголовье Form 06 Poem" data-photo>
+        <span class="fcard__sil"><svg><use href="#form-06"></use></svg></span>
+      </span>
+      <span class="fcard__meta"><span class="fcard__no">Form 06</span><span class="fcard__name">Poem</span></span>
+      <span class="fcard__desc">Мягкие фестоны</span>
+    </button>
+  </div>
+
+  <div class="forms__foot">
+    <p>Любую форму делаем в вашем размере — от 90 до 210 см по ширине.</p>
+    <a href="#order" class="btn btn--dark">Подобрать своё изголовье <i>→</i></a>
+  </div>
+</section>
+
+<!-- ═══ ТКАНИ ═══ -->
+<section class="fabrics" id="fabrics">
+  <div class="fabrics__lead">
+    <span class="label">Ткани</span>
+    <h2 class="h2 h2--col">Фактура,<br>которую хочется<br>чувствовать</h2>
+    <p>Более 300 оттенков премиальных тканей: букле, шенилл, велюр, рогожка. Пришлём фото и видео образцов при разном свете, поможем подобрать под ваш интерьер.</p>
+    <a href="#" class="btn btn--outline-dark" data-modal="fabrics">Где посмотреть ткани <i>→</i></a>
+  </div>
+
+  <div class="fabrics__grid">
+    <figure class="fabrics__big">
+      <img src="img/fabrics/1.jpg" data-fb="https://ylsedesign.se/cdn/shop/files/ylse-custom-headboard-fabric-neutral-scandinavian-style-details.png?v=1774444855" alt="Фактура ткани крупным планом" loading="lazy">
+      <figcaption>Букле · крупная фактура</figcaption>
+    </figure>
+    <figure>
+      <img src="img/fabrics/2.jpg" data-fb="https://ylsedesign.se/cdn/shop/files/ylse-custom-headboard-fabric-neutral-scandinavian-style-stripes.png?v=1774444855" alt="Ткань в полоску" loading="lazy">
+      <figcaption>Хлопок · рисунок</figcaption>
+    </figure>
+    <figure>
+      <img src="img/fabrics/3.jpg" data-fb="https://ylsedesign.se/cdn/shop/files/tyger-ylse-katalog.webp?v=1763637026" alt="Каталог тканей" loading="lazy">
+      <figcaption>Коллекция в шоуруме</figcaption>
+    </figure>
+  </div>
+
+  <div class="swatches">
+    <span class="swatch" style="--c:#EFE9DD"></span>
+    <span class="swatch" style="--c:#E0D5C2"></span>
+    <span class="swatch" style="--c:#C9B9A4"></span>
+    <span class="swatch" style="--c:#A89179"></span>
+    <span class="swatch" style="--c:#7E6E60"></span>
+    <span class="swatch" style="--c:#55493F"></span>
+    <span class="swatch" style="--c:#8B9A8E"></span>
+    <span class="swatch" style="--c:#6E7C86"></span>
+    <span class="swatches__note">и ещё 300+ оттенков</span>
+  </div>
+</section>
+
+<!-- ═══ КОМПЛЕКТАЦИЯ ═══ -->
+<section class="sec sets" id="sets">
+  <div class="sec__head">
+    <span class="label">Комплектация</span>
+    <h2 class="h2">Только то,<br>что нужно именно вам</h2>
+    <p class="sec__note">Два варианта.<br>Оба — в вашей ткани и вашем размере.</p>
+  </div>
+
+  <div class="sets__grid">
+    <article class="set">
+      <div class="set__img">
+        <img src="img/sets/head.jpg" data-fb="https://ylsedesign.se/cdn/shop/files/ylse_sanggavel.webp?v=1779201182" alt="Только изголовье" loading="lazy">
+        <span class="set__tag">01</span>
+      </div>
+      <div class="set__body">
+        <h3>Только изголовье</h3>
+        <p>Крепится прямо к стене на скрытые навесы — без зазора. Вы оставляете своё основание и матрас.</p>
+        <ul class="set__list"><li>Скрытый монтаж</li><li>Высота 120 см</li><li>Ширина +20 см к матрасу</li></ul>
+        <div class="set__foot"><span class="set__price">от 60 000 ₽</span><a href="#order" class="link">Заказать <i>→</i></a></div>
+      </div>
+    </article>
+    <article class="set">
+      <div class="set__img">
+        <img src="img/sets/base.jpg" data-fb="https://ylsedesign.se/cdn/shop/files/Ylse-collection-cotswolds-cream.webp?v=1758532489" alt="Изголовье с основанием" loading="lazy">
+        <span class="set__tag">02</span>
+      </div>
+      <div class="set__body">
+        <h3>Изголовье + основание</h3>
+        <p>Готовая кровать в одной ткани: изголовье крепится к основанию, комплект выглядит единым целым.</p>
+        <ul class="set__list"><li>Единая ткань</li><li>Под ваш матрас</li><li>Доставка и сборка</li></ul>
+        <div class="set__foot"><span class="set__price">цена по запросу</span><a href="#order" class="link">Рассчитать <i>→</i></a></div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ═══ ИНТЕРЬЕРЫ ═══ -->
+<section class="interiors" id="interiors">
+  <div class="interiors__media">
+    <img src="img/interiors/wide.jpg" data-fb="https://ylsedesign.se/cdn/shop/files/ylse_kids_bespoke_sanggavel.webp?v=1755122103" alt="Изголовье в интерьере" data-parallax loading="lazy">
+  </div>
+  <div class="interiors__inner">
+    <h2 class="h2 h2--light">
+      <span class="line">Одна форма.</span>
+      <span class="line">Разные интерьеры.</span>
+      <span class="line">Ваш сценарий.</span>
+    </h2>
+    <a href="#gallery" class="link link--light">Смотреть больше интерьеров <i>→</i></a>
+  </div>
+</section>
+
+<section class="gallery" id="gallery">
+  <figure><img src="img/interiors/1.jpg" data-fb="https://ylsedesign.se/cdn/shop/files/Ylse_gavel_lander_manuel_canovas.webp?v=1779200552" alt="Интерьер спальни" loading="lazy"></figure>
+  <figure><img src="img/interiors/2.jpg" data-fb="https://ylsedesign.se/cdn/shop/files/ylse-design-sanggavel-blommigt-tyg-sovrum-nattduksbord-miljo_8976bd3b-fb32-4e05-bb07-0a9fd4f884ae.webp?v=1776769913" alt="Интерьер спальни" loading="lazy"></figure>
+  <figure><img src="img/interiors/3.jpg" data-fb="https://ylsedesign.se/cdn/shop/files/Ylsesanggavel_Cotswolds_stripeslover_styled.webp?v=1779200346" alt="Интерьер спальни" loading="lazy"></figure>
+  <figure><img src="img/interiors/4.jpg" data-fb="https://ylsedesign.se/cdn/shop/files/Ylse_barnrum_gavel_osterlen.webp?v=1779200422" alt="Детская спальня" loading="lazy"></figure>
+</section>
+
+<!-- ═══ КАЧЕСТВО / ДЕТАЛИ ═══ -->
+<section class="quality" id="quality">
+  <div class="quality__inner">
+    <div class="quality__media">
+      <figure class="quality__main">
+        <img src="img/details/1.jpg" data-fb="https://ylsedesign.se/cdn/shop/files/fermoie-ruffle-001-red-sanggavel-ylse-detaljer_d0f0d286-193b-4d53-9c66-298f5727e46e.webp?v=1763983506" alt="Деталь пошива изголовья" loading="lazy">
+      </figure>
+      <figure class="quality__sub">
+        <img src="img/details/2.jpg" data-fb="https://ylsedesign.se/cdn/shop/files/Ylse-Atelier-Stockholm-bespoke-headboards.webp?v=1763636751" alt="Производство изголовий" loading="lazy">
+        <figcaption>Собственное производство · Москва</figcaption>
+      </figure>
+    </div>
+
+    <div class="quality__text">
+      <span class="label">Качество</span>
+      <h2 class="h2 h2--col">Всё дело<br>в деталях</h2>
+      <p class="quality__lead">Ровный шов, плотная набивка, аккуратный кант и скрытые навесы. Каждое изголовье шьём на своём производстве в Москве — и отвечаем за результат два года.</p>
+      <ol class="qlist">
+        <li><span class="qlist__no">01</span><span class="qlist__t">Каркас из массива и фанеры</span></li>
+        <li><span class="qlist__no">02</span><span class="qlist__t">Наполнитель, который держит форму</span></li>
+        <li><span class="qlist__no">03</span><span class="qlist__t">Съёмные чехлы по запросу</span></li>
+        <li><span class="qlist__no">04</span><span class="qlist__t">Контроль качества перед отправкой</span></li>
+      </ol>
+      <a href="#order" class="btn btn--outline-dark">Обсудить свой проект <i>→</i></a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ РАЗМЕРЫ / КАК ЗАКАЗАТЬ ═══ -->
+<section class="sec sizes" id="sizes">
+  <div class="sizes__steps">
+    <span class="label">Как заказать</span>
+    <ol class="steps">
+      <li><span class="steps__no">01</span><div><h3>Выберите форму</h3><p>Из шести вариантов коллекции.</p></div></li>
+      <li><span class="steps__no">02</span><div><h3>Укажите размер</h3><p>Под ваш матрас и пространство стены.</p></div></li>
+      <li><span class="steps__no">03</span><div><h3>Выберите ткань</h3><p>Пришлём образцы и фото при разном свете.</p></div></li>
+      <li><span class="steps__no">04</span><div><h3>Выберите комплектацию</h3><p>Только изголовье или с основанием.</p></div></li>
+      <li><span class="steps__no">05</span><div><h3>Оформите заказ</h3><p>Изготовим за 3–8 недель, привезём и повесим.</p></div></li>
+    </ol>
+  </div>
+
+  <figure class="scheme">
+    <svg viewBox="0 0 420 350" class="scheme__svg" role="img" aria-label="Схема размеров изголовья">
+      <path class="scheme__shape" d="M60 300 V120 Q60 70 130 70 H290 Q360 70 360 120 V300 Z"/>
+      <g class="scheme__dim">
+        <path d="M60 46 H360"/><path d="M60 38 V54"/><path d="M360 38 V54"/>
+        <text x="210" y="30" text-anchor="middle">+20 см к ширине матраса</text>
+        <path d="M392 70 V300"/><path d="M384 70 H400"/><path d="M384 300 H400"/>
+        <text x="406" y="185" text-anchor="middle" transform="rotate(90 406 185)">120 см высота</text>
+        <path d="M60 322 H360"/><path d="M60 314 V330"/><path d="M360 314 V330"/>
+        <text x="210" y="344" text-anchor="middle">ширина изголовья под ваш размер</text>
+        <text x="26" y="196" text-anchor="middle" transform="rotate(-90 26 196)">8 см толщина</text>
+        <path d="M40 70 V300"/><path d="M34 70 H46"/><path d="M34 300 H46"/>
+      </g>
+    </svg>
+    <figcaption>Стандартная высота — 120 см. Ширину считаем как ширину матраса + 20 см, но можем сделать любую.</figcaption>
+  </figure>
+</section>
+
+<!-- ═══ ЗАЯВКА / ПОДБОР ═══ -->
+<section class="order" id="order">
+  <div class="order__preview">
+    <span class="label label--light">Ваше изголовье</span>
+    <div class="preview">
+      <div class="preview__stage">
+        <svg class="preview__scene" id="pvScene" viewBox="0 0 240 194" preserveAspectRatio="xMidYMax meet" aria-hidden="true">
+          <g id="pvHead" transform="translate(20,44)">
+            <use href="#form-01" id="previewUse" width="200" height="150"></use>
+          </g>
+          <g id="pvBed" class="pv-bed">
+            <rect class="pv-mattress" x="26" y="152" width="188" height="20" rx="4"></rect>
+            <rect class="pv-base" x="32" y="172" width="176" height="14" rx="3"></rect>
+            <rect class="pv-leg" x="42" y="186" width="6" height="8"></rect>
+            <rect class="pv-leg" x="192" y="186" width="6" height="8"></rect>
+          </g>
+        </svg>
+        <div class="preview__floor"></div>
+      </div>
+      <div class="preview__meta">
+        <span id="pvName">Form 01 · Adele</span>
+        <span id="pvSize">160 см</span>
+        <span id="pvSet">Только изголовье</span>
+      </div>
+      <div class="preview__price">Ориентировочно <b id="pvPrice">от 60 000 ₽</b></div>
+    </div>
+  </div>
+
+  <form class="order__form" id="orderForm" novalidate>
+    <h2 class="h2 h2--light h2--sm">Оформить заказ</h2>
+    <p class="order__lead">Мы свяжемся с вами, поможем выбрать ткань и рассчитаем точную стоимость.</p>
+
+    <div class="field">
+      <label>Форма</label>
+      <div class="chips" id="chipsForm">
+        <button type="button" class="chip is-active" data-form="01" data-name="ADELE">01 Adele</button>
+        <button type="button" class="chip" data-form="02" data-name="DUNE">02 Dune</button>
+        <button type="button" class="chip" data-form="03" data-name="MAYFAIR">03 Mayfair</button>
+        <button type="button" class="chip" data-form="04" data-name="LINEA">04 Linea</button>
+        <button type="button" class="chip" data-form="05" data-name="CAPSULE">05 Capsule</button>
+        <button type="button" class="chip" data-form="06" data-name="POEM">06 Poem</button>
+      </div>
+    </div>
+
+    <div class="field">
+      <label>Ширина изголовья, см</label>
+      <div class="chips" id="chipsSize">
+        <button type="button" class="chip" data-size="90">90</button>
+        <button type="button" class="chip" data-size="105">105</button>
+        <button type="button" class="chip" data-size="120">120</button>
+        <button type="button" class="chip" data-size="140">140</button>
+        <button type="button" class="chip is-active" data-size="160">160</button>
+        <button type="button" class="chip" data-size="180">180</button>
+        <button type="button" class="chip" data-size="210">210</button>
+      </div>
+    </div>
+
+    <div class="field">
+      <label>Комплектация</label>
+      <div class="chips" id="chipsSet">
+        <button type="button" class="chip is-active" data-set="head" data-price="от 60 000 ₽">Только изголовье</button>
+        <button type="button" class="chip" data-set="base" data-price="цена по запросу">Изголовье + основание</button>
+      </div>
+    </div>
+
+    <div class="field">
+      <label>Направление ткани</label>
+      <div class="chips chips--tone" id="chipsTone">
+        <button type="button" class="chip chip--tone is-active" data-tone="#E7E0D4" title="Молочный"></button>
+        <button type="button" class="chip chip--tone" data-tone="#D6C9B6" title="Песочный"></button>
+        <button type="button" class="chip chip--tone" data-tone="#B9A895" title="Тёплый беж"></button>
+        <button type="button" class="chip chip--tone" data-tone="#8C7A6B" title="Мокко"></button>
+        <button type="button" class="chip chip--tone" data-tone="#5E5449" title="Тёмный шоколад"></button>
+        <button type="button" class="chip chip--tone" data-tone="#7C8A80" title="Шалфей"></button>
+      </div>
+    </div>
+
+    <div class="grid2">
+      <div class="field"><label for="fName">Ваше имя</label><input id="fName" name="name" type="text" required></div>
+      <div class="field"><label for="fPhone">Телефон</label><input id="fPhone" name="phone" type="tel" inputmode="tel" required placeholder="+7-(999)-999-9999" data-mask="phone"></div>
+    </div>
+    <div class="field"><label for="fComment">Комментарий</label><textarea id="fComment" name="comment" rows="2"></textarea></div>
+
+    <label class="check" for="fAgree">
+      <input type="checkbox" id="fAgree" required>
+      <span class="check__box" aria-hidden="true"></span>
+      <span class="check__text">Согласен с <a href="#">политикой обработки персональных данных</a></span>
+    </label>
+
+    <button type="submit" class="btn btn--accent btn--wide">Отправить заявку</button>
+    <p class="order__ok" id="orderOk" hidden>Спасибо! Заявка принята — мы свяжемся с вами в ближайшее время.</p>
+  </form>
+</section>
+
+<!-- ═══ ПРЕИМУЩЕСТВА ═══ -->
+<section class="usp" id="about">
+  <div class="usp__item">
+    <svg class="usp__ic" viewBox="0 0 32 32" aria-hidden="true"><path d="M4 27V15l8-5v5l8-5v17M20 27V10l8-5v22M4 27h24"/></svg>
+    <h3>Собственное производство</h3><p>в Москве</p>
+  </div>
+  <div class="usp__item">
+    <svg class="usp__ic" viewBox="0 0 32 32" aria-hidden="true"><path d="M4 8v16M28 8v16M4 16h24M9 11l-5 5 5 5M23 11l5 5-5 5"/></svg>
+    <h3>Индивидуальные размеры</h3><p>под ваш интерьер</p>
+  </div>
+  <div class="usp__item">
+    <svg class="usp__ic" viewBox="0 0 32 32" aria-hidden="true"><path d="M3 11c4-4 7 4 11 0s7 4 11 0M3 17c4-4 7 4 11 0s7 4 11 0M3 23c4-4 7 4 11 0s7 4 11 0"/></svg>
+    <h3>Премиальные материалы</h3><p>и безупречное качество</p>
+  </div>
+  <div class="usp__item">
+    <svg class="usp__ic" viewBox="0 0 32 32" aria-hidden="true"><path d="M2 8h16v13H2zM18 13h6l4 4v4h-10z"/><circle cx="8" cy="24" r="2.5"/><circle cx="23" cy="24" r="2.5"/></svg>
+    <h3>Доставка и монтаж</h3><p>по Москве и России</p>
+  </div>
+  <div class="usp__item">
+    <svg class="usp__ic" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3l11 4v9c0 7-5 11-11 13C11 27 5 23 5 16V7z"/><path d="M11 16l3.5 3.5L21 13"/></svg>
+    <h3>Гарантия</h3><p>2 года</p>
+  </div>
+</section>
+
+<!-- ═══ FAQ ═══ -->
+<section class="sec faq" id="faq">
+  <div class="faq__head">
+    <span class="label">Вопросы</span>
+    <h2 class="h2 h2--col">Популярные<br>вопросы</h2>
+    <p>Не нашли ответ? Напишите — ответим лично.</p>
+    <a href="#order" class="link">Задать вопрос <i>→</i></a>
+  </div>
+  <div class="acc">
+    <details class="acc__item">
+      <summary>Сколько времени занимает изготовление?</summary>
+      <div class="acc__body"><p>Все изголовья 6Form изготавливаются на заказ, поэтому срок изготовления составляет ориентировочно 3–8 недель. При оформлении заказа мы сообщим предполагаемый срок готовности вашего изделия. Как только заказ будет готов к отправке, сотрудники 6Form свяжутся с вами для согласования доставки. Мы ценим ваше время и всегда стараемся организовать доставку в заранее согласованный временной интервал.</p></div>
+    </details>
+    <details class="acc__item">
+      <summary>Как выбрать ткань?</summary>
+      <div class="acc__body"><p>Мы поможем подобрать ткань по цвету, фактуре и особенностям вашего интерьера. По запросу пришлём подробные фотографии и видео выбранных вариантов при разном освещении, чтобы вы могли максимально точно оценить оттенок и фактуру ткани.</p><p>Большую часть коллекции можно посмотреть вживую в шоуруме 6Form на Artplay. Отдельные коллекции представлены в партнёрских шоурумах тканей в разных районах Москвы.</p><p><a href="#" class="link" data-modal="fabrics">Где посмотреть ткани <i>→</i></a></p></div>
+    </details>
+    <details class="acc__item">
+      <summary>Как изголовье крепится к стене?</summary>
+      <div class="acc__body"><p>Изголовье 6Form крепится непосредственно к стене без зазора, на надёжные скрытые навесы. После установки крепления не видны, а изголовье плотно прилегает к стене.</p></div>
+    </details>
+    <details class="acc__item">
+      <summary>Можно ли использовать изголовье с моим основанием кровати?</summary>
+      <div class="acc__body"><p>Да. Изголовье крепится непосредственно к стене, а ваше существующее основание устанавливается вплотную к нему и не требует крепления к изголовью.</p><p>Если вам нужен единый комплект, можно заказать изголовье вместе с основанием 6Form. В этом варианте предусмотрено крепление изголовья к основанию — вы получаете полноценную готовую кровать.</p></div>
+    </details>
+    <details class="acc__item">
+      <summary>Где можно посмотреть изголовья 6Form вживую?</summary>
+      <div class="acc__body"><p>Посмотреть готовые изголовья, оценить качество исполнения и выбрать ткань можно в нашем шоуруме на Artplay: Москва, ул. Нижняя Сыромятническая, д. 10, стр. 2, офис 625. Посещение шоурума — по предварительной записи.</p><p><a href="#" class="link" data-modal="visit">Записаться в шоурум <i>→</i></a></p></div>
+    </details>
+  </div>
+</section>
+
+<!-- ═══ ШОУРУМ ═══ -->
+<section class="showroom" id="showroom">
+  <div class="showroom__img"><img src="img/showroom.jpg" data-fb="https://ylsedesign.se/cdn/shop/files/ylse_karlavagen_42_butiken1.webp?v=1771514866" alt="Шоурум 6Form" loading="lazy"></div>
+  <div class="showroom__text">
+    <span class="label">Шоурум</span>
+    <h2 class="h2 h2--col">Приезжайте<br>потрогать</h2>
+    <p>Москва, Artplay<br>ул. Нижняя Сыромятническая, 10, стр. 2, офис 625<br>По предварительной записи</p>
+    <a href="#" class="btn btn--dark" data-modal="visit">Записаться в шоурум <i>→</i></a>
+  </div>
+</section>
+
+<!-- ═══ FOOTER ═══ -->
+<footer class="ftr">
+  <div class="ftr__brand"><span class="ftr__logo">6FORM</span><span>Шесть форм комфорта</span></div>
+  <nav class="ftr__nav"><a href="#forms">Формы</a><a href="#fabrics">Ткани</a><a href="#faq">Вопросы</a></nav>
+  <div class="ftr__contacts"><a href="tel:+79091234567">+7 909 123 45 67</a><a href="mailto:hello@6form.ru">hello@6form.ru</a></div>
+  <div class="ftr__soc"><a href="#" aria-label="Instagram">IG</a><a href="#" aria-label="WhatsApp">WA</a></div>
+  <div class="ftr__legal">© 2026 6Form · <a href="#">Политика конфиденциальности</a></div>
+</footer>
+
+<!-- ═══ МОДАЛКИ ═══ -->
+<div class="modal" id="modal" hidden>
+  <div class="modal__bg" data-close></div>
+  <div class="modal__win">
+    <button class="modal__x" data-close aria-label="Закрыть">×</button>
+    <div class="modal__content" id="modalContent"></div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
